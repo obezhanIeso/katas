@@ -1,5 +1,7 @@
 FUNDAMENTAL_NUMBERS = {
     1: 'I',
+
+    4: 'IV',
     5: 'V',
     10: 'X',
     50: 'L',
@@ -8,13 +10,18 @@ FUNDAMENTAL_NUMBERS = {
     1000: 'M'
 }
 
-def to_roman(n):
-    if n == 2:
+def to_roman(input_number):
+    if input_number == 2:
         return "II"
-    if n == 2000:
-        return "MM"
 
-    return FUNDAMENTAL_NUMBERS[n]
+    if input_number in FUNDAMENTAL_NUMBERS:
+        return FUNDAMENTAL_NUMBERS[input_number]
+
+    if input_number == 200:
+        return "CC"
+
+    n = divide(input_number)
+    return 'M' * n
 
 def divide(n):
     if n >= 1000:

@@ -31,9 +31,24 @@ def test_to_roman_returns_MM_for_2000():
 
 def test_divide_returns_1_for_1():
     assert divide(1) == 1
+
 def test_divide_returns_1_for_10():
     assert divide(10) == 1
+
 def test_divide_returns_1_for_100():
     assert divide(100) == 1
+
 def test_divide_returns_1_for_1000():
     assert divide(1000) == 1
+
+def test_to_roman_returns_IV_for_4():
+    assert to_roman(4) == 'IV'
+
+def test_to_roman_returns_MM_for_3000():
+    assert to_roman(3000) == 'MMM'
+
+def test_to_roman_returns_CC_for_200():
+    assert to_roman(200) == 'CC'
+
+def test_to_roman_returns_CCC_for_300():
+    assert to_roman(300) == 'CCC'

@@ -38,8 +38,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for tests.test_check_to_roman.executor": "Coverage",
+    "Python tests.pytest for tests.test_divide_returns_1_for_10.executor": "Run",
+    "Python tests.pytest for tests.test_to_roman_returns_CC_for_200.executor": "Run",
+    "Python tests.pytest for tests.test_to_roman_returns_C_for_100.executor": "Run",
     "Python tests.pytest for tests.test_to_roman_returns_II_for_2.executor": "Run",
+    "Python tests.pytest for tests.test_to_roman_returns_IV_for_4.executor": "Run",
     "Python tests.pytest for tests.test_to_roman_returns_I_for_1.executor": "Run",
+    "Python tests.pytest for tests.test_to_roman_returns_MM_for_3000.executor": "Run",
     "Python tests.pytest for tests.test_to_roman_returns_fundamental_numbers.executor": "Run",
     "Python tests.pytest in tests.py.executor": "Run",
     "Python.tests.executor": "Run",
@@ -55,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest in tests.py">
+  <component name="RunManager" selected="Python tests.pytest for tests.test_to_roman_returns_CC_for_200">
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -80,23 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_check_to_roman" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_check_to_roman&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_to_roman_returns_II_for_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_divide_returns_1_for_10" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +99,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_to_roman_returns_II_for_2&quot;" />
+      <option name="_new_target" value="&quot;tests.test_divide_returns_1_for_10&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_to_roman_returns_I_for_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_to_roman_returns_CC_for_200" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +117,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_to_roman_returns_I_for_1&quot;" />
+      <option name="_new_target" value="&quot;tests.test_to_roman_returns_CC_for_200&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_to_roman_returns_fundamental_numbers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_to_roman_returns_IV_for_4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +135,25 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_to_roman_returns_fundamental_numbers&quot;" />
+      <option name="_new_target" value="&quot;tests.test_to_roman_returns_IV_for_4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_to_roman_returns_MM_for_3000" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_to_roman_returns_MM_for_3000&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -170,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_CC_for_200" />
         <item itemvalue="Python tests.pytest in tests.py" />
-        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_I_for_1" />
-        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_fundamental_numbers" />
-        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_II_for_2" />
-        <item itemvalue="Python tests.Python tests for tests.test_check_to_roman" />
+        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_MM_for_3000" />
+        <item itemvalue="Python tests.pytest for tests.test_divide_returns_1_for_10" />
+        <item itemvalue="Python tests.pytest for tests.test_to_roman_returns_IV_for_4" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721227487591</updated>
       <workItem from="1721227488666" duration="1253000" />
-      <workItem from="1721230402273" duration="517000" />
+      <workItem from="1721230402273" duration="2011000" />
     </task>
     <servers />
   </component>
@@ -202,10 +209,15 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_C_for_100.coverage" NAME="pytest for tests.test_to_roman_returns_C_for_100 Coverage Results" MODIFIED="1721232452755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_I_for_1.coverage" NAME="pytest for tests.test_to_roman_returns_I_for_1 Coverage Results" MODIFIED="1721230822858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_fundamental_numbers.coverage" NAME="pytest for tests.test_to_roman_returns_fundamental_numbers Coverage Results" MODIFIED="1721230763764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Python$pytest_in_tests_py.coverage" NAME="pytest in tests.py Coverage Results" MODIFIED="1721230875309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_MM_for_3000.coverage" NAME="pytest for tests.test_to_roman_returns_MM_for_3000 Coverage Results" MODIFIED="1721232898759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_IV_for_4.coverage" NAME="pytest for tests.test_to_roman_returns_IV_for_4 Coverage Results" MODIFIED="1721232572911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_CC_for_200.coverage" NAME="pytest for tests.test_to_roman_returns_CC_for_200 Coverage Results" MODIFIED="1721233032130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Python$pytest_in_tests_py.coverage" NAME="pytest in tests.py Coverage Results" MODIFIED="1721232907574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_to_roman_returns_II_for_2.coverage" NAME="pytest for tests.test_to_roman_returns_II_for_2 Coverage Results" MODIFIED="1721230574273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Python$pytest_for_tests_test_divide_returns_1_for_10.coverage" NAME="pytest for tests.test_divide_returns_1_for_10 Coverage Results" MODIFIED="1721232892091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Python$.coverage" NAME=" Coverage Results" MODIFIED="1721230410512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
