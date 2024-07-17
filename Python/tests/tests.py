@@ -28,6 +28,12 @@ def test_to_roman_returns_M_for_1000():
     
 def test_to_roman_returns_MM_for_2000():
     assert to_roman(2000) == 'MM'
-    
-def test_divide_returns_0_for_10():
-    assert divide(10) == 0
+
+def test_divide_returns_1_for_1():
+    assert divide(1) == 1
+def test_divide_returns_1_for_10():
+    assert divide(10) == 1
+def test_divide_returns_1_for_100():
+    assert divide(100) == 1
+def test_divide_returns_1_for_1000():
+    assert divide(1000) == 1

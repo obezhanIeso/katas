@@ -17,4 +17,11 @@ def to_roman(n):
     return FUNDAMENTAL_NUMBERS[n]
 
 def divide(n):
-    return n % 10
+    if n >= 1000:
+        return n // 1000
+    elif n >= 100:
+        return n // 100
+    elif n >= 10:
+        return n // 10
+    else:
+        return 1
